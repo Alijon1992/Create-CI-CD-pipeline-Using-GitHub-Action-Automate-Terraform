@@ -128,12 +128,33 @@ Modifying  previously  deployed AWS instances in Github repository via CI/CD pip
 
 <img width="1436" alt="Screenshot 2023-03-16 at 12 01 09 AM" src="https://user-images.githubusercontent.com/121365233/225511371-8db993e6-06c5-4823-898e-1acba88b09e4.png">
 
+7) Verifying a provisioned instance
 
+--Check GitHub and terraform cloud to make sure actions did as they were intended to do. 
 
+--If you notice we have a message here, it says compare & pull request.
 
+<img width="942" alt="Screenshot 2023-03-16 at 12 06 35 AM" src="https://user-images.githubusercontent.com/121365233/225517140-2b030d81-8d61-4047-aa12-ebfd4dbdac95.png">
 
+<img width="1225" alt="Screenshot 2023-03-16 at 12 52 44 AM" src="https://user-images.githubusercontent.com/121365233/225517765-58bdb387-a323-4533-939c-001d39df1d0c.png">
 
+--Click on the "Create pull request" and then merge pull request finally confirm merge.
 
+<img width="939" alt="Screenshot 2023-03-16 at 12 55 10 AM" src="https://user-images.githubusercontent.com/121365233/225518115-ab722d36-60f6-4d9a-b0e8-91a2b5cac003.png">
+
+<img width="932" alt="Screenshot 2023-03-16 at 12 55 22 AM" src="https://user-images.githubusercontent.com/121365233/225518134-940d2a28-c279-43ac-ac55-8ebbc3d52ecf.png">
+
+8) Finally, let’s do some clean up and destroyments to avoid extra charges.
+
+--Use "terraform destroy"
+
+<img width="1004" alt="Screenshot 2023-03-16 at 12 58 20 AM" src="https://user-images.githubusercontent.com/121365233/225518645-f161015b-b13d-4e23-9f2c-93f6e8ebffd8.png">
+
+8) Finally, let’s do some clean up and destroyments to avoid extra charges.
+
+--Go to terraform cloude console --sellect created organization, --settings, --destruction and deletion.
+
+Congratulations!
 
 
 
