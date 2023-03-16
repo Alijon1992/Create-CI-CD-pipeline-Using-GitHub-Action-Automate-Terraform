@@ -150,6 +150,11 @@ Modifying  previously  deployed AWS instances in Github repository via CI/CD pip
 
 <img width="1004" alt="Screenshot 2023-03-16 at 12 58 20 AM" src="https://user-images.githubusercontent.com/121365233/225518645-f161015b-b13d-4e23-9f2c-93f6e8ebffd8.png">
 
+--To compare first state here I am attaching initial status of instance.
+
+<img width="628" alt="Screenshot 2023-03-15 at 11 31 09 PM" src="https://user-images.githubusercontent.com/121365233/225520716-c63b3678-affa-4f92-b3e0-df01706e5670.png">
+
+
 8) Finally, let’s do some clean up and destroyments to avoid extra charges.
 
 --Go to terraform cloude console --sellect created organization, --settings, --destruction and deletion.
